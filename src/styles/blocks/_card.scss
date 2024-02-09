@@ -1,0 +1,95 @@
+.card {
+  width: 200px;
+  min-height: 408px;
+  padding: 16px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  &__image {
+    width: 160px;
+    height: 134px;
+    background: white url("../images/imac.jpeg") no-repeat center / 100% 100%;
+    margin: 16px 3px 40px;
+  }
+  &__title {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #060b35;
+  }
+  &__code {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 4px;
+    color: #616070;
+  }
+  &__rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 16px;
+    width: 100%;
+    color: #060b35;
+    span {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0em;
+    }
+  }
+  &__price {
+    margin-top: 24px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #616070;
+  }
+  &__amount {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #060b35;
+  }
+  &__button {
+    height: 40px;
+    border-radius: 5px;
+    background: #00acdc;
+    width: 100%;
+    border: none;
+    color: white;
+    margin-top: 16px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      color: #00acdc;
+      background: white;
+      border: 1px solid #00acdc;
+    }
+  }
+}
